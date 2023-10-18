@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <link rel="Website Icon" href="images/logomaggot.png" type="png">
+        <!-- BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" href="keranjang.css" type="text/css">
+        <!-- FONT RUBIK -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <!-- ICON -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- TEMPLATE -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
+
+    <title>Check Out</title>
+</head>
+
+<body>
+     <!-- NAVBAR -->
+     <div class="navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="images/logomaggot.png" alt="" height="120px" class="d-inline-block align-text-top">
+            
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNavDropdown" style="float: right;">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">home</a>
+                  </li>
+                  <li class="nav-item" style="margin-left: 20px;">
+                    <a class="nav-link" href="index_article.html">article</a>
+                  </li>
+                  <li class="nav-item" style="margin-left: 20px;">
+                    <a class="nav-link" href="index_product.html">product</a>
+                  </li>
+                  <li class="nav-item" style="margin-left: 20px;">
+                    <a class="nav-link" href="index_about.html">about</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- NAVBAR -->
+    
+    <!-- CONTAINER -->
+    <div class="container-fluid badan">
+        <br>
+        <h1 class="text-center my-5"> <b>Checkout</b></h1>
+        <div class="tab-content">
+            <div class="tab-pane active" id="step1">
+                <div class="row text-center langkah">
+                    <div class="col-sm col-12">
+                        <div class="alert alert-primary bg-alert-bg" role="alert" style="color: black;">
+                           <b> 1 . Masukkan Informasi Anda</b>
+                        </div>
+                    </div>
+                    <div class="col-sm col-12">
+                        <div class="alert alert-secondary" role="alert" style="color: black;">
+                            <b>2 . Metode Pembayaran</b>
+                        </div>
+                    </div>
+                    <div class="col-sm col-12">
+                        <div class="alert alert-secondary" role="alert" style="color: black;">
+                            <b>3. Selesai</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="card border-0">
+                                            <div class="card-header d-flex justify-content-between" id="headingOne">
+                                                <h2 class="mb-0">
+                                                    <button id="turnbf" class="btn btn-link d-flex turnaf clps" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        <p class="clps-btn-style"> Tampilkan keranjang </p>
+                                                        <span class="mx-1"><i class="far fa-chevron-double-down"></i></span>
+                                                    </button>
+                                                </h2>
+                                                <span class="my-2 text-danger h4">Rp. 150.000</span>
+                                            </div>
+                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="card-body p-0">
+                                                    <div>
+                                                        <table class="table table-sm">
+                                                            <thead>
+                                                                <tr class="ml-3">
+                                                                    <th></th>
+                                                                    <th></th>
+                                                                    <th class="text-left" width="50%">Produk</th>
+                                                                    <th class="text-center" width="45%">Banyaknya</th>
+                                                                    <th>Subtotal</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="align-middle text-center">
+                                                                        <a href="#delete" data-toggle="modal" data-title="apakah yakin ingin menghapus produk ?">
+                                                                            <i class="fal fa-trash-alt"></i>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="rounded" style="background-image: url('produk/pakan.jpg'); width: 60px; height: 60px; background-size: cover;"></div>
+                                                                        
+                                                                    </td>
+                                                                    <td class="align-middle text-left">Pakan unggas</td>
+                                                                    <td class="align-middle text-center">1 pcs</td>
+                                                                    <td class="align-middle text-right">Rp35.000</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="align-middle text-center">
+                                                                        <a href="#delete" data-toggle="modal" data-title="Delete your product ?">
+                                                                            <i class="fal fa-trash-alt"></i>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="rounded" style="background-image: url('produk/pelet.jpg'); width: 60px; height: 60px; background-size: cover;"></div>
+                                                                    </td>
+                                                                    <td class="align-middle text-left">Pelet Ikan</td>
+                                                                    <td class="align-middle text-center">2 pcs</td>
+                                                                    <td class="align-middle text-right">Rp.20.000</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="align-middle text-center">
+                                                                        <a href="#delete" data-toggle="modal" data-title="Delete your product ?">
+                                                                            <i class="fal fa-trash-alt"></i>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="rounded" style="background-image: url('produk/pupuk.jpg'); width: 60px; height: 60px; background-size: cover;background-position: center center;"></div>
+                                                                    </td>
+                                                                    <td class="align-middle text-left">Pupuk Maggot</td>
+                                                                    <td class="align-middle text-center">1 pcs</td>
+                                                                    <td class="align-middle text-right">Rp.50.000</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="4" class="align-middle text-right">Total</td>
+                                                                    <td class="align-middle text-right">Rp.155.000</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="alert alert-secondary border-0 h4 text-center bg-alert rounded-0" role="alert">
+                                                Order information
+                                            </div>
+                                            <form class="needs-validation" novalidate>
+                                                <div class="form-row">
+                                                    <div class="col-md-4 mb-3">
+                                                        <label for="name">Name</label>
+                                                        <input type="text" class="form-control space" id="name" placeholder="Masukkan nama anda  . . ." required>
+                                                        <div class="valid-feedback">
+                                                            Berhasil !
+                                                        </div>
+                                                        <div class="invalid-feedback">
+                                                            Masukkan Nama Anda ...
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <label for="email">Email</label>
+                                                        <input type="text" class="form-control space" id="email" placeholder="Masukkan email aktif . . ." required>
+                                                        <div class="valid-feedback">
+                                                            Berhasil !
+                                                        </div>
+                                                        <div class="invalid-feedback">
+                                                            Masukkan Akun Email ...
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <label for="email">Nomor Telepon</label>
+                                                        <input type="tel" class="form-control space" id="email" placeholder="Masukkan nomor telepon . . ." required>
+                                                        <div class="valid-feedback">
+                                                            Berhasil !
+                                                        </div>
+                                                        <div class="invalid-feedback">
+                                                            Masukkan Nomor Telepon  . . .
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col-md-4 mb-3">
+                                                        <label for="city">Kota</label>
+                                                        <input type="text" class="form-control space" id="city" placeholder="Masukkan Nama Kota . . ." required>
+                                                        <div class="valid-feedback">
+                                                            Berhasil !
+                                                        </div>
+                                                        <div class="invalid-feedback">
+                                                            Masukkan Nama Kota . . .
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 mb-3">
+                                                        <label for="postal">Kode Pos</label>
+                                                        <input type="text" class="form-control space" id="kodepos" placeholder="Masukkan Kode pos . . ." required>
+                                                        <div class="valid-feedback">
+                                                            Berhasil !
+                                                        </div>
+                                                        <div class="invalid-feedback">
+                                                            Masukkan Kode Pos . . .
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <label for="address">Alamat</label>
+                                                        <input type="text" class="form-control space" id="address" placeholder="Masukkan Alamat Lengkap . . ." required>
+                                                        <div class="valid-feedback">
+                                                            Berhasil !
+                                                        </div>
+                                                        <div class="invalid-feedback">
+                                                            Masukkan alamat lengkap . . .
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <!--  -->
+                                                    <!-- <button class="btn btn-lg " type="submit" style="margin-top: 10px; background-color:#FFC474; border-radius: 20px;" onclick="enableNextButton()"> <b>Konfirmasi</b></button> -->
+                                                </div>
+                                                <div class="list-group mt-5 p-0 justify-content-center" id="allList" role="tablist" style="flex-direction: row;">
+
+                                                    <a href="#step2" class="list-group-item-dark w-35 py-2  rounded text-center btns" data-toggle="list" role="tab" >
+                                                        Next <i class="fal fa-arrow-circle-right"></i>
+                                                    </a>
+                                                    
+                                                </div> 
+                                            </form>
+
+                                            
+                                            <br><br><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="step2">
+                <div class="row text-center">
+                    <div class="col-sm col-12">
+                        <div class="alert alert-secondary " role="alert" style="color: black;">
+                           <b> 1 . Masukkan Informasi Anda</b>
+                        </div>
+                    </div>
+                    <div class="col-sm col-12">
+                        <div class="alert alert-primary bg-alert-bg" role="alert" style="color: black;">
+                            <b>2 . Metode Pembayaran</b>
+                        </div>
+                    </div>
+                    <div class="col-sm col-12">
+                        <div class="alert alert-secondary" role="alert" style="color: black;">
+                            <b>3. Selesai</b>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card my-5 text-center border-0">
+                                            <div class="card-header bg-transparent" id="card">
+                                                <ul class="nav nav-tabs card-header-tabs">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#act1" data-toggle="tab" role="tab">
+                                                            <p class="card-bg h6">Akun Bank</p>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tab-content">
+                                                <div class="tab-pane active" id="act3">
+                                                    <div class="card-body border border-top-0 rounded-bottom">
+                                                        <h5 class="card-title">Transfer ke akun bank di bawah ini</h5>
+                                                        <span class="d-block my-2">Akun bank Ternak Pak Midun</span>
+                                                        <span class="d-block text-danger font-weight-bold my-2">123-XXXXXXXXXXXXXXXX</span>
+                                                        <p class="card-text">Kami akan memberitahukan kepada penjual pesan akun transfer Anda<br>Lalu akan membantu untuk mengirimkan paket anda</p>
+                                                        <br>
+                                                        <div class="mb-3">
+                                                            <label for="formFile" class="form-label"> <b>Upload Bukti Pembayaran</b></label>
+                                                            <input class="form-control" type="file" id="formFile" required>
+                                                          </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list-group my-5 p-0 justify-content-center" id="allList" role="tablist" style="flex-direction: row;">
+                                    <a href="#step1" class="list-group-item-dark mr-3 w-35 px-0 py-2 rounded text-center btns" data-toggle="list" role="tab">
+                                        <i class="fal fa-arrow-circle-left"></i> Previous
+                                    </a>
+                                    <a href="#step3" class="list-group-item-dark ml-3 w-35 px-0 py-2  rounded text-center btns" data-toggle="list" role="tab">
+                                        Next <i class="fal fa-arrow-circle-right"></i>
+                                    </a>
+                                </div>
+                                <br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="step3">
+                <div class="row text-center">
+                    <div class="col-sm col-12">
+                        <div class="alert alert-secondary" role="alert" style="color: black;">
+                           <b> 1 . Masukkan Informasi Anda</b>
+                        </div>
+                    </div>
+                    <div class="col-sm col-12">
+                        <div class="alert alert-secondary" role="alert" style="color: black;">
+                            <b>2 . Metode Pembayaran</b>
+                        </div>
+                    </div>
+                    <div class="col-sm col-12">
+                        <div class="alert alert-primary bg-alert-bg" role="alert" style="color: black;">
+                            <b>3. Selesai</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="text-center my-3">Bought information</h2>
+                                    <div>
+                                        <table class="table table-sm">
+                                            <thead>
+                                                <tr class="ml-3">
+                                                    <th></th>
+                                                    <th class="text-left" width="50%">Product</th>
+                                                    <th class="text-center" width="45%">Pieces</th>
+                                                    <th>Subtotal</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="rounded" style="background-image: url('produk/pakan.jpg'); width: 60px; height: 60px; background-size: cover;"></div>
+                                                        
+                                                    </td>
+                                                    <td class="align-middle text-left">Pakan unggas</td>
+                                                    <td class="align-middle text-center">1 pcs</td>
+                                                    <td class="align-middle text-right">Rp35.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="rounded" style="background-image: url('produk/pelet.jpg'); width: 60px; height: 60px; background-size: cover;"></div>
+                                                    </td>
+                                                    <td class="align-middle text-left">Pelet Ikan</td>
+                                                    <td class="align-middle text-center">2 pcs</td>
+                                                    <td class="align-middle text-right">Rp.20.000</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="rounded" style="background-image: url('produk/pupuk.jpg'); width: 60px; height: 60px; background-size: cover;background-position: center center;"></div>
+                                                    </td>
+                                                    <td class="align-middle text-left">Pupuk Maggot</td>
+                                                    <td class="align-middle text-center">1 pcs</td>
+                                                    <td class="align-middle text-right">Rp.50.000</td>
+                                                </tr>
+                                               
+                                                <tr>
+                                                    <td colspan="3" class="align-middle text-right">Total</td>
+                                                    <td class="align-middle text-right">Rp.150.000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <h2 class="text-center my-3">Profil</h2>
+                                    <div class="">
+                                        <table class="table table-sm">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="35%" class="align-middle text-left">Nama</td>
+                                                    <td class="text-left">Hasbul</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="align-middle text-left">No. Telepon</td>
+                                                    <td class="align-middle text-left">0851-5932-2904</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="align-middle text-left">Email</td>
+                                                    <td class="align-middle text-left">Hasbul21@gmail.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="align-middle text-left">Address</td>
+                                                    <td class="align-middle text-left">nama perumahan. Blok D4/No.3A. Kecamatan bala bala. Kelurahan boy. Kota Bogor 14045</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group mt-5 p-0 mb-3 justify-content-center" id="allList" role="tablist" style="flex-direction: row;">
+                                <a href="#step1" class="list-group-item-dark ml-3 w-35 py-2  rounded text-center btns home" data-toggle="list" role="tab">
+                                    <i class="fas fa-home"></i> Back
+                                </a>
+                            </div>
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <!-- Footer -->
+        <footer class="text-white">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-4">
+                <h3 style="font-weight: bold; font-size: 35px;">OhMaggot !</h3>
+                <img src="images/logomaggot.png" alt="" class="logo">
+      
+                <p style="color: white;">
+                  <br>
+                  OhMaggot! adalah sebuah aplikasi yang dirancang untuk memberikan dukungan kepada para pemelihara Maggot dalam kegiatan budidaya mereka.
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4" id="footer-center">
+                <br><br>
+                <div>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p> <a href="https://maps.app.goo.gl/ZVxACBi3DYQZvb1g8">Sekolah Vokasi - IPB</a></p>
+                </div>
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <p>08xxxxxxxxx</p>
+                </div>
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <p><a href="#">ohmaggott@gmail.com</a></p>
+                </div>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4">
+                <br>
+                <h5 style="margin-top: 200px;"><b>Social Media</b></h5>
+      
+                <!-- Facebook -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+  
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+  
+                <!-- Instagram -->
+                <a class="btn btn-outline-light" href="#!" role="button"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+  
+              <!--Grid column-->
+            </div>
+  
+            <!--Grid row-->
+          </div>
+  
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 : SyntaxSquad ><
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+  
+      <!-- FOOTER -->
+
+
+
+    <!-- delete modal start-->
+    <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bgd-danger border-bottom-0">
+                    <h5 class="modal-title text-white" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body bg-dark text-white">
+                    This is a demo so don't have any items .
+                </div>
+                <div class="modal-footer bg-dark btn-change">
+                    <button type="button" class="btn btn-n" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-y" data-dismiss="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- delete modal end-->
+    <script>
+
+        // harus klik button sebelum next
+        function enableNextButton() {
+            // Aktifkan tautan "Next" setelah tombol "Click Me" diklik
+            document.getElementById("nextButton").style.pointerEvents = "auto";
+        }
+
+
+
+
+
+        // delete modal end
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+        var btns = document.querySelector('.home')
+        btns.addEventListener('click', function() {
+            alert('Thank for your order !');
+        }, false);
+        $(document).ready(function() {
+            $('#delete').on('show.bs.modal', function(event) {
+                var button = $(event.relatedTarget)
+                var item = button.data('title')
+                var modal = $(this)
+                modal.find('.modal-title').text(item)
+            })
+            $(function() {
+                $('#allList').tab('show')
+            })
+            $(function() {
+                $('#card').tab('show')
+            })
+            $('.icons').click(function() {
+                $(this).toggleClass('iconck').siblings().removeClass('iconck')
+            })
+            $('#turnbf').click(function() {
+                $('#turnbf span').addClass('turn')
+            })
+            $('.turnaf').click(function() {
+                $('.turnaf span').toggleClass('turnb')
+            })
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+</body>
+
+</html>
